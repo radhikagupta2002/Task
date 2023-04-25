@@ -1,0 +1,30 @@
+.profile-info{
+    padding: 2rem;
+}
+.info-selector{
+    margin-top: 1rem;
+    display: flex;
+    gap:1.3rem;
+    border-radius: 0.31rem;
+    padding: 0.3rem;
+}
+
+.info-selector select{
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 2.5rem;
+    border-radius: 0.31rem;
+}
+
+.selector-panel{
+    
+    display: flex;
+    gap:0.5rem;
+    flex-direction: column;
+    width:48%;
+}
+
+.profile-info hr{
+    margin-top:1rem;
+}

@@ -1,0 +1,30 @@
+/* .heatmap {
+    position: relative;
+  }
+  
+  .heatmap-cell {
+    position: absolute;
+    border: 1px solid #fff;
+  }
+   */
+
+.heatmap-cont {
+  padding: 2rem;
+}
+.heatmap-heading{
+  margin-bottom: 2rem;
+  color: #2C3D4F;
+}
+
+.react-calendar-heatmap .color-scale-1 {
+  fill: #FCE4CB;
+}
+.react-calendar-heatmap .color-scale-2 {
+  fill: #F9C897;
+}
+.react-calendar-heatmap .color-scale-3 {
+  fill: #F6AD62;
+}
+.react-calendar-heatmap .color-scale-4 {
+  fill: #F3912E;
+}

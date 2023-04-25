@@ -1,0 +1,146 @@
+.User-panel {
+  max-height: 18vh;
+  width: 95%;
+  position: fixed;
+  display: flex;
+  background-image: url(../utility/profileData_bg.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  align-content: center;
+  justify-content: space-between;
+  border-bottom:1px solid rgba(150, 150, 150, 1) ;
+  z-index: 100;
+}
+.User-panel::before,
+.User-panel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 18vh;
+
+  z-index: 1;
+}
+
+.user-content {
+  position: relative;
+  z-index: 10;
+  max-height: 18vh;
+  height: 100%;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  padding-left: 2rem;
+}
+.pic-edit-cont {
+  background-color: #353f58;
+  position: relative;
+  height: 1.4rem;
+  width: 1.4rem;
+  right: 3rem;
+  top: 2rem;
+  border-radius: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.pic-edit {
+  font-size: 1.2rem;
+  color: #ffffff;
+  position: relative;
+  z-index: 10;
+  align-self: center;
+  justify-self: center;
+}
+
+.greeting{
+    color: #2C3D4F;
+    font-family: "Open Sans",Roboto,sans-serif;
+}
+.greeting h2{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+.greeting h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.greeting h4{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.User-panel::before {
+  left: 0;
+  background: linear-gradient(to left, transparent, rgba(255, 255, 255, 1));
+}
+.User-panel::after {
+  right: 0;
+  background: linear-gradient(to right, transparent, rgba(255, 255, 255, 1));
+}
+
+.profile-panel {
+ 
+  height: 77vh;
+  max-width: 100%;
+  width: 100%;
+  margin-top: 18vh;
+  position: fixed;
+}
+.followers{
+    color: #263444;
+    font-family: "Open Sans",Roboto,sans-serif;
+    margin-right: 3rem;
+    z-index: 10;
+    display: flex;
+   
+}
+.followers h3{
+    font-weight: 500;
+    align-self: center;
+}
+
+.profile-content {
+  position: fixed;
+  overflow-y: auto;
+  margin-top: 18vh;
+  background-color: #F2F5FA;
+  max-height: 71vh;
+  z-index: 99;
+}
+
+.profile-edit-panel-layout{
+  display: flex;
+  flex-direction: row;
+}
+.profile-pic-panel{
+  display: flex;
+  flex-direction: column;
+  gap:5rem;
+  width: 14rem;
+}
+.profile-pic-update{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic-panel .pic-edit-cont{
+  top:3rem;
+  right: 3.6rem;
+}
+
+
+
+.profile-panel-heading{
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+}
+
+

@@ -1,0 +1,55 @@
+.interest-panel{
+    padding: 2rem;
+}
+
+.options-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+    margin-left: 1rem;
+}
+
+.option{
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: #f3f5fb;
+    width: 12rem;
+    height: 2rem;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.option__selected{
+    padding: 0.3rem;
+    font-weight: 500;
+    border-radius: 0.3rem;
+    background-color:#f3902f;
+    width: 12rem;
+    color: white;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.interests-list{
+    height:fit-content;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap:1rem;
+}
+
+.interest-badge{
+    background-color: #F2EBE6;
+    color: #F39146;
+    height: fit-content;
+    padding: 0.5rem;
+    border-radius: 0.31rem;
+}

@@ -1,0 +1,58 @@
+.social-links{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap:1rem;
+}
+.link-section{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.link-heading{
+    color: #808191;
+    font-weight: 600;
+}
+.link-panel{
+    display: flex;
+    flex-direction: column;
+    gap:0.3rem;
+    width: 47%;
+}
+
+.link-field{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 0.31rem;
+    height: fit-content;
+    width: 100%;
+    gap:0.51rem;
+}
+.link-input{
+    width: 95%;
+}
+.link-icon{
+    height: fit-content;
+    display: flex;
+
+}
+.link-icon, .link-icon svg{
+    font-size: 1.5rem;
+    align-self: center;
+    color: #808191;
+    padding: 0px;
+}
+.link-input input{
+    width: 95%;
+    height: 1.5rem;
+    background-color: white;
+    outline: none;
+    border: none;
+}
